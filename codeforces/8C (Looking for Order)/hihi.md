@@ -8,7 +8,7 @@ Ban đầu, do quá gà nên không suy nghĩ ra cách làm trong contest. Nhưn
 > - Gọi $f(sl, mask)$ là phương án chọn tốt nhất cho mask, với thằng cuối cùng được chọn chỉ có nó (sl == 0) hay bắt cặp với một thằng khác (sl == 1)  
 > - $f(sl, mask) = min(f(sl, mask), min(f(0, OffBit(mask, bit1, bit2)), f(1, OffBit(mask, bit1, bit2)) + cost)$ (bit1 và bit2 là giống nhau nếu sl == 0)  
 
-Đúng rồi, đúng rồi đấy, cách nhìn nhìn thực sự rất ngu ngốc =))
+Đúng rồi, đúng rồi đấy, cách nhìn thực sự rất ngu ngốc =))
 
 T buộc phải mở hint ra xem, đó chính là bảng xếp hạng lúc contest của bài này diễn ra, t thấy bài này được giải ở phút 30, t nghĩ rằng "Chắc nó cũng không khó đến thế". Và tiếp tục 1 ngày sau suy cũng giữ tinh thần giống ngày đầu (không thực sự nghiêm túc giải quyết vấn đề), t đã không nhận ra được 1 điểm mấu chốt quan trọng để giải quyết bài toàn này cho đến khi đọc được lời giải:
 > Thứ tự chọn đồ vật không quan trọng
