@@ -14,7 +14,7 @@ T buộc phải mở hint ra xem, đó chính là bảng xếp hạng lúc conte
 > Thứ tự chọn đồ vật không quan trọng
 
 Đây chính là điểm mấu chốt mà t đã bỏ qua, nó thay đổi hoàn toàn cách nhìn nhận của t về một bài toán dp bitmask, từ trước giờ t chỉ nghĩ là chỉ cần làm cách tính $f(mask)$ từ việc duyệt từng bit bật trong mask, từ đó kết quả là $min(f(OffBit(mask, bit)) + cost)$ là đủ rồi. Nhưng với bài toán này, cách làm này là không hiệu quả.
-> - Gọi $f(mask)$ là phương án chọn tốt nhất cho mask. Mask ở đây không còn dưới góc nhìn là các đồ vật đã chọn như ý tưởng cũ nữa, mask ở đây phải được xử lý dưới góc nhìn những đồ vật **chưa chọn**.  
+> - Gọi $f(mask)$ là phương án chọn tốt nhất cho mask. Mask ở đây không còn dưới góc nhìn là các đồ vật đã chọn như ý tưởng cũ nữa, mask ở đây phải được xử lý dưới góc nhìn những đồ vật **chưa được chọn**.  
 > - Vì thứ tự chọn đồ vật không quan trọng, nên thực sự ta chỉ cần chọn đồ vật chưa được chọn đầu tiên trong mask mà thôi (nice!!!)  
 > - Gọi bit1 là đồ vật đầu tiên chưa được chọn trong mask. Khi chỉ chọn một mình đồ vật đó thì $f(OnBit(mask, bit1)) = min(f(mask) + cost)$, còn khi đồ vật đó không được chọn một mình, lúc này mình mới cần bắt cặp qua tất cả các đồ vật khác chưa được chọn khác, gọi là bit2, $f(OnBit(mask, bit1, bit2)) = min(f(mask) + cost)$
 > - $O(2^n * n)$ (tuyệt vời!!!)
