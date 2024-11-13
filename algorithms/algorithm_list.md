@@ -56,6 +56,7 @@
 ### Tree-like
 - Segment tree (ST)
 - ST with lazy propagation
+- Walk on ST
 
 ## Geometry
 ### Basic
