@@ -126,6 +126,7 @@
 ## Sqrt ideas
 - Primality testing in $O(\sqrt{n})$
 - Factorization in $O(\sqrt{n})$
+- Mo's Algorithm
 
 ## Binary search -esque ideas
 - Binary search on answer
