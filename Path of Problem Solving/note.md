@@ -11,11 +11,11 @@ Make observations.
 If you can't see anything, add more limitations, and try to solve more constrained (easier) version of the problems. Is there something that works for the general case too?
 
 ## Step 3. Think about implementation
-Calculate the complexity.   
 Think about implementation.  
 What function do you need?  
 Which places are tricky? What you need to remember?  
 Which places is the heaviest by implementation?  
+Calculate the complexity.   
 Which places is the slowest? Can you do them better/simpler?  
 
 ## Step 4. Before submit
