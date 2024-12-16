@@ -2,8 +2,8 @@
 > Bắt chước Um_nik
 
 ## Step 1. Read the statement
-Read the statement carefully.
-Notice weird, unexpected things.
+Read the statement carefully.  
+Notice weird, unexpected things.  
 Make note of limitations, especially if they are low or unexpected.
 
 ## Step 2. Make observations
