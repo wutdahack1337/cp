@@ -20,9 +20,9 @@ Which places is the slowest? Can you do them better/simpler?
 
 ## Step 4. Before submit
 Reread the problem statement. Did you understand the problem correctly?  
+Recall the solution. It is correct?  
 Reread the code.  
 Recall the tricky places. Did you remember to do everything to handle them?  
-Recall the solution. It is correct?  
 
 ## Step 5. If not AC
 Write stress-test.   
