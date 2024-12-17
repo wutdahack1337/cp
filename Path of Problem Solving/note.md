@@ -22,7 +22,7 @@ Which places is the slowest? Can you do them better/simpler?
 ## Step 4. Before submit
 Reread the problem statement. Did you understand the problem correctly?  
 Recall the solution. It is correct?  
-Reread the code.  
+Reread the code (kiểu dữ liệu, giới hạn mảng, tràn số,...).  
 Recall the tricky places. Did you remember to do everything to handle them?  
 
 ## Step 5. If not AC
