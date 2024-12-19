@@ -28,7 +28,7 @@ Recall the tricky places. Did you remember to do everything to handle them?
 ## Step 5. If not AC
 Reread the problem statement.   
 Write stress-test.   
-If no countertest was found: Reread the problem statement. Did you understand the problem correctly? Is your stupid solution definitely stupid?  
+If no countertest was found: Is your stupid solution definitely stupid?  
 
 ## Step 6. Get AC
 Get AC. Celebrate.  
