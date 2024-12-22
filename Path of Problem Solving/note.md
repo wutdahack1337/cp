@@ -27,6 +27,7 @@ Recall the tricky places. Did you remember to do everything to handle them?
 
 ## Step 5. If not AC
 Reread the problem statement.   
+Recall the solution.   
 Write stress-test.   
 If no countertest was found: Is your stupid solution definitely stupid?  
 
