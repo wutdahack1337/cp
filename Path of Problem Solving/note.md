@@ -7,7 +7,7 @@ Notice weird, unexpected things.
 Make note of limitations, especially if they are low or unexpected.
 
 ## Step 2. Make observations
-Make observations.   
+Make observations (nhieu nhat co the).   
 Build a math model of the problem.   
 If you can't see anything, add more limitations, and try to solve more constrained (easier) version of the problems. Is there something that works for the general case too?
 
