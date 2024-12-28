@@ -12,9 +12,9 @@
 - Do problem B faster (<= 00:15).
 ### III. Goals: 1600
 - Just do A, B, C is enough
-- Do problem A (<= 00:04).
-- Do problem B (<= 00:13).
-- Do problem C
+- Do problem A faster (<= 00:04).
+- Do problem B faster (<= 00:13).
+- Do problem C.
 ### IV. Goals: 1900
 - Just do A, B, C fast is enough
 - Do problem A faster (<= 00:03)
