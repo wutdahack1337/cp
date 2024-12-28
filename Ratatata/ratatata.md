@@ -1,4 +1,4 @@
-# Road To Candidate Master
+# BABY STEP
 > My strategy to improve my cf rating
 
 ## Max rating: 1202
@@ -21,7 +21,7 @@
 - Do problem B faster (<= 00:11)
 - Do problem C faster (<= 01:00)
 
-# My Path of Problem Solving
+# MY PATH OF PROBLEM SOVING
 > Bắt chước Um_nik
 
 ## Step 1. Read the statement
