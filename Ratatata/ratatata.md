@@ -6,20 +6,27 @@
 - Just do A, B is enough.
 - Do problem A.
 - Do problem B.
+
 ### II. Goals: 1400
 - Just do A, B fast is enough.
-- Do problem A faster (<= 00:05).
-- Do problem B faster (<= 00:15).
+- Do problem A fast.
+- Do problem B fast.
+
 ### III. Goals: 1600
 - Just do A, B, C is enough
-- Do problem A faster (<= 00:04).
-- Do problem B faster (<= 00:13).
+- Do problem A fast.
+- Do problem B fast.
 - Do problem C.
+
 ### IV. Goals: 1900
 - Just do A, B, C fast is enough
-- Do problem A faster (<= 00:03)
-- Do problem B faster (<= 00:11)
-- Do problem C faster (<= 01:00)
+- Do problem A fast.
+- Do problem B fast.
+- Do problem C fast.
+
+
+
+
 
 # MY PATH OF PROBLEM SOVING
 > Bắt chước Um_nik
