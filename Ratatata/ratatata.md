@@ -1,30 +1,16 @@
 # BABY STEP
 > My strategy to improve my cf rating
 
-## Max rating: 1202
-### I. ---> Goals: 1200 <---
+## Max rating: 1213
+### I. Goals: 1200
 - Just do A, B is enough.
 - Do problem A.
 - Do problem B.
 
-### II. Goals: 1400
+### II. ---> Goals: 1400 <---
 - Just do A, B fast is enough.
 - Do problem A fast.
 - Do problem B fast.
-
-### III. Goals: 1600
-- Just do A, B, C is enough
-- Do problem A fast.
-- Do problem B fast.
-- Do problem C.
-
-### IV. Goals: 1900
-- Just do A, B, C fast is enough
-- Do problem A fast.
-- Do problem B fast.
-- Do problem C fast.
-
-
 
 
 
