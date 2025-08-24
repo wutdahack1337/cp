@@ -1,0 +1,8 @@
+- là tiền tố
+- tìm được pattern nhỏ nhất -> đếm được có bao nhiêu pattern lặp lại
+
+- cdbdddcbdcdbdddcbdcdbdddcbdcdbdddcbdcdbdddcbdcdbdddcbdccd
+- bbbccbb
+- bbbccbbb
+- aabcdaa
+- aabababaaa
