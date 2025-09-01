@@ -1,0 +1,10 @@
+- Xét node u ở cây gốc:
+    - Hậu duệ của u thì giữ nguyên
+    - Tổ tiên của u mới là điều cần để tâm:
+        - Do tính chất "<= n//2" là cứng nên chỉ cần tổ tiên gần nhất của u thỏa là những tổ tiên xa xăm khác tự nhiên thỏa theo
+
+- Nếu theo tính chất của đề bài, mỗi cây con có nhiều nhất là n//2 nodes -> KHÁ cân bằng (không quá lệch về 1 phía)
+    - Có cái gì đó ở đây không?
+
+=> Solution:
+    - Đếm số nodes của hậu duệ => Số nodes của tổ tiên gần nhất = n - tổng node hậu duệ
