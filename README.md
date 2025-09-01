@@ -4,6 +4,13 @@ Competitive Programming
 ## C
 ```bash
 gcc main.c -o main -lm
+./main
+```
+
+## C++
+```bash
+g++ main.c -o main
+./main
 ```
 
 ## Python
