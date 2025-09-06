@@ -3,13 +3,13 @@ Competitive Programming
 
 ## C
 ```bash
-gcc main.c -o main -lm
+gcc main.c -o main.o -lm
 ./main
 ```
 
 ## C++
 ```bash
-g++ main.c -o main
+g++ main.c -o main.o
 ./main
 ```
 
