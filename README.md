@@ -1,29 +1,33 @@
 # cp
 Competitive Programming
 
-## C
+## Compiler
+### C
 ```bash
 gcc main.c -o main.o -lm
 ./main
 ```
 
-## C++
+### C++
 ```bash
 g++ main.c -o main.o
 ./main
 ```
 
-## Python
+### Python
 ```bash
 python3 main.py
 ```
 
-## Go
+### Go
 ```bash
 go run main.go
 ```
 
-## bash
+### bash
 ```bash
 bash checker.sh
 ```
+
+## Resources
+- [USACO Guide](https://usaco.guide/)
