@@ -6,15 +6,12 @@
 
 const int MOD = 1e9;
 
-int n, h, a[MAXN], fac[MAXN];
+int n, h, a[MAXN];
+int nB, nC, b[MAXN], c[MAXN];
 
-int Pow(int x, int n){
-    if (!n) return 1;
-
-    int t = Pow(x, n/2);
-    t = 1ll*t*t%MOD;
-
-    return n%2 ? 1ll*t*x%MOD : t;
+int GCD(int a, int b){
+    if (!b) return a;
+    return GCD(b, a%b);
 }
 
 int main(){
@@ -31,17 +28,28 @@ int main(){
         }
     }
     printf("%d\n", ans1);
-    
-    fac[0] = 1;
-    for (int i = 1; i <= 2*(n+1); i++){
-        fac[i] = 1ll*fac[i-1]*i%MOD;
+
+    n += 1;
+    for (int i = n+2; i <= 2*n; i++){
+        b[++nB] = i;
+    }
+    for (int i = 2; i <= n; i++){
+        c[++nC] = i;
     }
 
+    for (int i = 1; i <= nB; i++){
+        for (int j = 1; j <= nC; j++){
+            int gcd = GCD(b[i], c[j]);
+            b[i] /= gcd;
+            c[j] /= gcd;
+        }
+    }
 
+    unsigned long long ans2 = 1;
+    for (int i = 1; i <= nB; i++){
+        ans2 = 1ll*ans2*b[i]%MOD;
+    }
+    printf("%lld\n", ans2);
 
-    int ans2 = fac[2*(n+1)]/(1ll*fac[(n+1)+1]*fac[n+1]);
-    printf("==%lld %lld\n", fac[2*(n+1)], (1ll*fac[(n+1)+1]*fac[n+1]));
-    printf("%d\n", ans2);
- 
     return 0;
 }
