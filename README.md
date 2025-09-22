@@ -34,4 +34,5 @@ bash checker.sh
 ```
 
 ## Resources
-- [USACO Guide](https://usaco.guide/)
+- [USACO Guide](https://usaco.guide/problems/)
+- [AtCoder](https://kenkoooo.com/atcoder/#/training)
