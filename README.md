@@ -5,6 +5,10 @@ Competitive Programming
 $f_n = \sum_{i=1}^{n}f_{i-1}*f_{n-i}$   
 -> **Catalan Number**
 
+---
+f(x) là tổng chữ số của x.
+f(a + b) = f(a) + f(b) - 9*Carry_count(a, b)
+
 ## Compiler
 ### C
 ```bash
